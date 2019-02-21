@@ -71,7 +71,7 @@ p {
     border-width: 1px;
     background-color: #ffffff;
     width: 60%;
-    margin: 0 auto;
+    margin: 0 auto 100px;
     padding: 30px;
 }
 
@@ -111,6 +111,28 @@ p {
     border-width: 0 0 2px 0;
     border-color: #999999;
     margin: 0 0 20px 0;
+}
+
+.img-pair {
+    display: flex;
+}
+
+.portfolio-img{
+    float: left;
+    display: flex;
+    margin: 0 20px 20px 0;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.img-banner {
+    background-color: #4aaaa5;
+    position: absolute;
+    flex-basis: 0;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #profile_picture {
